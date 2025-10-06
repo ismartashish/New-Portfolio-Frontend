@@ -210,7 +210,7 @@ const App = () => {
               A personal portfolio built using React and Node.js showcasing my
               skills and achievements.
             </p>
-            <a href="#">View Code</a>
+            <a href="https://github.com/ismartashish/portfolio">View Code</a>
           </div>
           <div className="project-card">
             <h3>Chat App</h3>
