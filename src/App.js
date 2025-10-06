@@ -4,7 +4,8 @@ import {
   FaNodeJs,
   FaGithub,
   FaLinkedin,
-  FaGitAlt
+  FaGitAlt,
+  FaInstagram
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -217,10 +218,94 @@ const App = () => {
             <p>
               A real-time chat application built with MERN stack and Socket.IO.
             </p>
-            <a href="#">View Code</a>
+            <a href="#">OnGoing</a>
           </div>
         </div>
       </section>
+       <section id="publication" className="publication">
+  <h2>Research Publication</h2>
+  <div className="publication-card">
+    <h3>IEEE Research Paper</h3>
+    <p>
+    I have published a research paper in the <strong>IEEE Xplore Digital Library</strong> 
+    titled <em>“Intelligent FPGA-Based Vehicle Accident Reporting System.”</em> <br /><br />
+    This paper presents an advanced FPGA-powered solution designed to reduce road accident 
+    fatalities by enabling real-time emergency reporting. <br /><br />
+    The system automatically detects airbag deployment, sends instant alerts with location 
+    and severity details to nearby hospitals and police stations, and stores accident data 
+    on Google Cloud for analysis. <br /><br />
+    By combining speed, accuracy, and intelligent processing, this system aims to minimize 
+    emergency response delays and save lives.
+  
+    </p>
+    <a
+      href="https://ieeexplore.ieee.org/document/11101305"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="publication-link"
+    >
+      🔗 View Publication
+          </a>
+        </div>
+      </section>
+     <section id="achievements" className="achievements">
+  <h2>Achievements & Leadership</h2>
+  <div className="achievement-list">
+
+    <div className="achievement-card">
+      <h3>IEEE Research Paper Publication (2025)</h3>
+      <p>
+        Published a research paper titled <strong>“FPGA-Based Vehicle Accident Reporting System”</strong> 
+        in <strong>IEEE Xplore</strong>. 
+        <br /><br />
+        The paper presents an intelligent FPGA-based system for real-time accident detection 
+        and emergency response, integrating cloud storage and live data analytics to reduce fatalities.
+      </p>
+    </div>
+
+    <div className="achievement-card">
+      <h3>Lead Organizer — ACEHACK 5.0 (2025)</h3>
+      <p>
+        Spearheaded the organization of <strong>ACEHACK 5.0</strong>, a national-level hackathon 
+        bringing together developers and innovators from across India. 
+        <br /><br />
+        Oversaw event planning, participant coordination, technical management, and ensured 
+        smooth execution of all hackathon activities.
+      </p>
+    </div>
+
+    <div className="achievement-card">
+      <h3>Lead Organizer — SANGRAM 2025 (Sports Fest)</h3>
+      <p>
+        Successfully led <strong>SANGRAM 2025</strong>, the university’s largest sports fest, 
+        managing multiple events, teams, and logistics for a celebration of teamwork 
+        and sportsmanship.
+        <br /><br />
+        Coordinated between departments, handled registrations, and maintained a vibrant and 
+        disciplined sporting environment.
+      </p>
+    </div>
+
+    <div className="achievement-card">
+      <h3>Hackathon Participant — Smart India Hackathon</h3>
+      <p>
+        Participated in <strong>Smart India Hackathon</strong> with a team project focusing on 
+        IoT-based accident alert systems and real-time data monitoring.
+      </p>
+    </div>
+
+    <div className="achievement-card">
+      <h3>JavaScript & SQL Certifications</h3>
+      <p>
+        Earned certifications in <strong>JavaScript Algorithms and Data Structures</strong> 
+        (freeCodeCamp) and <strong>SQL for Data Analysis</strong> (HackerRank), 
+        strengthening both backend and analytical capabilities.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
       <section id="contact" className="contact">
         <h2>Contact Me</h2>
@@ -241,12 +326,20 @@ const App = () => {
             <FaGithub size={25} />
           </a>
           <a
-            href="https://www.linkedin.com/in/ashish-kumar-jha"
+            href="https://www.linkedin.com/in/ashish-kumar-jha-332a17288/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin size={25} />
           </a>
+         <a
+            href="https://www.instagram.com/ismartashish2.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram size={25} />
+          </a>
+
         </div>
         <p>© 2025 Ashish Kumar Jha | Built with ❤️ using MERN</p>
       </footer>
