@@ -82,7 +82,7 @@ function ContactForm() {
 
     try {
       const res = await fetch(
-        "https://new-portfolio-backend-xdn4.onrender.com/api/contact",
+        "https://new-portfolio-backend-3.onrender.com/api/contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
