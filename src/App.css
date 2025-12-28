@@ -526,3 +526,13 @@ footer .socials a:hover {
     transform: translateY(0);
   }
 }
+.tool-icons img {
+  width: 38px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.tool-icons img:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 6px #22c55e);
+}
+
