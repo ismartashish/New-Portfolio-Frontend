@@ -163,7 +163,9 @@ export default function App() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/chatgpt-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/vscode-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/linkdin-original.svg" />
             </div>
           </div>
         </motion.div>
