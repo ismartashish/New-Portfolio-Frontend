@@ -164,8 +164,8 @@ export default function App() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" />
-              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/openai.svg"/>
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" style={{ filter: "invert(1)" }}/>
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/openai.svg alt="ChatGPT" style={{ filter: "invert(1)" }}"/>
             </div>
           </div>
         </motion.div>
